@@ -162,7 +162,7 @@ RC SessionStage::handle_sql(SQLStageEvent *sql_event)
   // std::cout<< "optimize stage:"<<std::endl;
 
   rc = optimize_stage_.handle_request(sql_event);
-  if (rc != RC::UNIMPLENMENT && rc != RC::SUCCESS) {
+  if (rc != RC::UNIMPLEMENT && rc != RC::SUCCESS) {
     LOG_TRACE("failed to do optimize. rc=%s", strrc(rc));
     return rc;
   }

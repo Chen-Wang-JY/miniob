@@ -1,3 +1,16 @@
+# 比赛记录
+
+第一次碰内核级别的代码，真的好难。
+
+最终成绩106名，分数230/520。
+
+实现了date、drop-table、aggregation-func、like、update、join-tables、order-by、big-order-by、unique、big-write、big-query功能。
+
+因为题目测试样例间莫名其妙的依赖关系，已经实现的null、multi-index没有办法通过测试样例。
+
+很难，但是学到很多。
+
+
 # MiniOB 概述
 
 MiniOB 是 [OceanBase](https://github.com/oceanbase/oceanbase) 团队基于华中科技大学数据库课程原型，联合多所高校重新开发的、专为零基础的同学设计的数据库入门学习项目。我们的目标是为在校学生、数据库从业者、爱好者或对基础技术感兴趣的人提供一个友好的数据库学习项目。
